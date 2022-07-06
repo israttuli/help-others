@@ -1,7 +1,7 @@
 .top-banner {
 
     background-image: url(images/donation6.jpg);
-    background-size: 100% 400%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     color: aliceblue;
     text-shadow: rgb(12, 18, 21) 0px 0px 2px;
@@ -15,10 +15,12 @@
     font-size: 70px;
 }
 
+.top-banner p {
+    font-size: larger;
+}
 
 
 body {
-
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -42,7 +44,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     position: center;
-    font-weight: 700;
+    font-weight: 900;
     padding: 10px 30px;
     size: 90px;
 
@@ -115,4 +117,46 @@ body {
     margin-right: 8%;
     border-radius: 5px;
 
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+
+}
+
+.half-width h1 {
+    font-size: 40px;
+}
+
+.half-width p {
+    font-size: 25px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.last {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.email {
+    background-color: blanchedalmond;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-family: cursive;
 }
