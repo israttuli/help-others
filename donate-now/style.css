@@ -34,6 +34,20 @@ body {
 }
 
 
+
+.button {
+    background-color: #3108c8;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    position: center;
+    font-weight: 700;
+    padding: 10px 30px;
+    size: 90px;
+
+}
+
 .container div {
     float: left;
     width: 180px;
@@ -50,20 +64,21 @@ body {
     border-color: aqua;
 }
 
-.button {
-    background-color: #3108c8;
-    color: aliceblue;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    position: center;
-    font-weight: 700;
-    padding: 10px 30px;
-    size: 90px;
-
-}
-
 .d {
     text-align: center;
     display: inline-block;
+}
+
+.donating-plan {
+    text-align: center;
+
+}
+
+.donating-plan h1 {
+    font-size: 45px;
+}
+
+.flexible-container {
+    display: flex;
+    padding: 60px;
 }
