@@ -1,10 +1,9 @@
 .top-banner {
-
-    background-image: url(images/donation6.jpg);
-    background-size: 100% 100%;
+    background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     color: aliceblue;
-    text-shadow: rgb(12, 18, 21) 0px 0px 2px;
+    text-shadow: rgb(29, 34, 36) 0px 0px 2px;
     text-align: center;
     padding-top: 180px;
     padding-bottom: 180px;
@@ -12,17 +11,21 @@
 }
 
 .top-banner h1 {
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .top-banner p {
-    font-size: larger;
+    font-size: xx-large;
+    color: white;
 }
-
 
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+
+body p {
+    font-size: larger;
 }
 
 .donate-today {
@@ -66,6 +69,15 @@ body {
     border-color: aqua;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.gift-amount {
+    text-align: center;
+}
 
 
 .donating-plan {
@@ -83,8 +95,6 @@ body {
 }
 
 .part1 {
-    background-image: url(icons/food.png);
-    background-repeat: no-repeat;
     background-color: rgb(177, 235, 217);
     padding-left: 20px;
     padding-right: 20px;
@@ -96,8 +106,6 @@ body {
 }
 
 .part2 {
-    background-image: url(icons/shelter.png);
-    background-repeat: no-repeat;
     background-color: bisque;
     padding-left: 20px;
     padding-right: 20px;
@@ -108,8 +116,6 @@ body {
 }
 
 .part3 {
-    background-image: url(icons/medicine.svg);
-    background-repeat: no-repeat;
     background-color: rgb(212, 241, 182);
     padding-left: 20px;
     padding-right: 20px;
@@ -155,6 +161,7 @@ body {
 }
 
 footer {
+    margin-top: 7%;
     text-align: center;
     background-color: black;
     color: aliceblue;
