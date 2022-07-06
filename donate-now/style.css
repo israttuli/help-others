@@ -167,3 +167,8 @@ footer {
     color: aliceblue;
     font-family: cursive;
 }
+
+#colorful {
+    color: crimson;
+    font-weight: 600;
+}
